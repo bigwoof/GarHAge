@@ -415,7 +415,7 @@ binary_sensor:
     payload_on: "open"
     payload_off: "closed"
     availability_topic: "GarHAge/availability"
-    device_class: opening
+    device_class: garage_door
     qos: 0
 
   - platform: mqtt
@@ -424,7 +424,7 @@ binary_sensor:
     payload_on: "open"
     payload_off: "closed"
     availability_topic: "GarHAge/availability"
-    device_class: opening
+    device_class: garage_door
     qos: 0  
 ```
 
